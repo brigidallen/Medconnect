@@ -1,0 +1,21 @@
+{
+  "name": "medconnect-backend",
+  "version": "1.0.0",
+  "description": "MedConnect Emergency Medical Dispatch Backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["medical", "dispatch", "emergency", "twilio"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1",
+    "twilio": "^4.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  }
+}
